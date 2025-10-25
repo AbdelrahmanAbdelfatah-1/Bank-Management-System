@@ -1,0 +1,65 @@
+[
+    {
+        "Name": "abdelrahman ",
+        "ID": 0,
+        "Password": "123",
+        "PhoneNumber": "01220209863",
+        "Email": "abedomahmed@gmail.com",
+        "Gender": "male",
+        "Age": "21",
+        "City": "cairo ",
+        "Balance": 605.0,
+        "Operations": [
+            "Depositing 100.0 EGP in 2025-08-15 14:19:44.958502 ",
+            "Withdrawing 100.0 EGP in 2025-08-15 14:20:00.473937 ",
+            "Depositing 1000.0 EGP in 2025-08-15 14:20:44.787415 ",
+            "Transferring 500.0 EGP in 2025-08-15 14:20:55.892715 to ali  with ID : 1",
+            "Depositing 5.0 EGP in 2025-08-16 15:08:06.606807 ",
+            "Depositing 100.0 EGP in 2025-08-16 18:21:33.427141 "
+        ],
+        "Account_status": true,
+        "Temp_faild_tries": 0,
+        "perm_faild_tries": 0,
+        "Lock_time": null
+    },
+    {
+        "Name": "ali ",
+        "ID": 1,
+        "Password": "1234",
+        "PhoneNumber": "01220209863",
+        "Email": "abedomahmed@gmail.com",
+        "Gender": "male",
+        "Age": "21",
+        "City": "Alex",
+        "Balance": 242650.0,
+        "Operations": [
+            "Receiving 500.0 EGP in 2025-08-15 14:20:55.892732 from abdelrahman  with ID : 0",
+            "Depositing 242250.0 EGP in 2025-08-15 14:34:59.707238 ",
+            "Transferring 100.0 EGP in 2025-08-16 14:19:21.256587 to ahemd with ID : 2"
+        ],
+        "Account_status": true,
+        "Temp_faild_tries": 0,
+        "perm_faild_tries": 0,
+        "Lock_time": null
+    },
+    {
+        "Name": "ahemd",
+        "ID": 2,
+        "Password": "12345",
+        "PhoneNumber": "01020429508",
+        "Email": "abedoamhmed154@gmail.com ",
+        "Gender": "male",
+        "Age": "21",
+        "City": "cairo",
+        "Balance": 100.0,
+        "Operations": [
+            "Depositing 100.0 EGP in 2025-08-15 14:31:55.913248 ",
+            "Withdrawing 100.0 EGP in 2025-08-15 14:32:34.487975 ",
+            "Receiving 100.0 EGP in 2025-08-16 14:19:21.256625 from ali  with ID : 1"
+        ],
+        "Account_status": true,
+        "Temp_faild_tries": 0,
+        "perm_faild_tries": 0,
+        "Lock_time": null
+    }
+]
